@@ -1,0 +1,48 @@
+nav{
+  min-height: 150px;
+}
+.logo{
+  height: 100%;
+}
+body{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+.responsive-img{
+  border-radius: 5px;
+}
+.fotos3{
+  max-width: 300px;
+  border-radius: 5px;
+}
+.foto-blog{
+  max-width: 350px;
+}
+.circle{
+  width: 70%;
+  padding: 20px;
+}
+.blogs{
+  padding: 1rem;
+}
+.blog1{
+  text-align: justify;
+  height: 35rem;
+}
+.autor{
+  text-align: center;
+  height: 35.6rem;
+}
+.comentario{
+  padding: 1rem;
+}
+@media (max-width: 600px) {
+  .responsive-img{
+    width: 100%;
+  }
+  .blog1{
+    height: 60rem;
+  }
+}

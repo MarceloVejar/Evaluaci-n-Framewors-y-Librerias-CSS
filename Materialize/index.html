@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css" media="screen,projection"/>
+    <title>Mi primer página con Materialize CSS</title>
+  </head>
+  <body>
+    <div class="row">
+      <nav class="nav-extended teal lighten-3">
+        <div class="nav-wrapper">
+          <img class="left logo" src="img/logo.jpg"></img>
+          <ul class="right">
+            <li><a class="btn-large active"><i class="material-icons left">home</i><span class="hide-on-small-only">Inicio</span></a></li>
+            <li><a class="btn-large"><i class="material-icons left">message</i><span class="hide-on-small-only">Comentarios y Testimonios</span></a></li>
+            <li><a class="btn-large"><i class="material-icons left">lightbulb_outline</i><span class="hide-on-small-only">Consejos</span></a></li>
+            <li><a class="btn-large"><i class="material-icons left">person</i><span class="hide-on-small-only">Quienes somos</span></a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="col s12 l8 offset-l4">
+        <h3 class="blue-grey-text">Tu viaje inicia hoy</h3>
+      </div>
+
+      <div class="row">
+        <div class="s1 col hide-on-small-only">
+          <ul class="collection">
+            <li class="collection-item"><a class="waves-effect waves-light btn-floating btn-large social google"><i class="fab fa-google"></i></a></li>
+            <li class="collection-item"><a class="waves-effect waves-light btn-floating btn-large social facebook"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="collection-item"><a class="waves-effect waves-light btn-floating btn-large social instagram"><i class="fab fa-instagram"></i></a></li>
+            <li class="collection-item"><a class="waves-effect waves-light btn-floating btn-large social youtube"><i class="fab fa-youtube"></i></a></li>
+            <li class="collection-item"><a class="waves-effect waves-light btn-floating btn-large social twitter"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="s12 l4 col columna-fotos">
+          <div class="row">
+            <img src="img/imagen1.jpg" alt="" class="responsive-img z-depth-3"/>
+            <img src="img/imagen2.jpg" alt="" class="responsive-img z-depth-3">
+          </div>
+        </div>
+        <div class="s12 l3 col columna-fotos">
+          <div class="row">
+              <img src="img/imagen3.jpg" alt="" class="responsive-img z-depth-3">
+          </div>
+        </div>
+        <div class="s12 l4 col columna-fotos">
+          <div class="row">
+            <img src="img/imagen4.jpg" alt="" class="responsive-img z-depth-3"/>
+            <img src="img/imagen5.jpg" alt="" class="responsive-img z-depth-3">
+            <img src="img/imagen6.jpg" alt="" class="responsive-img z-depth-3">
+          </div>
+        </div>
+      </div>
+
+      <div class="row blogs">
+        <div class="s12 l7 col card white blog1">
+          <div class="card-content">
+            <img src="img/imagen7.jpg" class="foto-blog float left">
+            <h3>Termas</h3>
+            <div class="">
+              <p>20/10/2018<i class="material-icons">event</i> Villarrica 8° Region<i class="material-icons">location_on</i></p></br>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <div class="s12 l3 col offset-l1 white autor">
+          <img src="img/Neruda.jpg" class="circle">
+          <h5>Perfil del autor</h5>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </blockquote>
+        </div>
+      </div>
+      <div class="row comentario">
+        <form class="col s12 l7 blue darken-3">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">mail</i>
+              <input id="icon_mail" type="text" class="validate">
+              <label for="icon_mail">E-mail</label>
+            </div>
+          </div>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="textarea1" class="materialize-textarea" data-length="10"></textarea>
+                  <label for="textarea1">Comentario</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Comentar
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
